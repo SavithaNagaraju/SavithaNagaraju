@@ -28,3 +28,41 @@ git clone --recursive https://github.com/SavithaNagaraju/SavithaNagaraju
 cd SavithaNagaraju
 git submodule update --init --recursive
 ```
+
+## package updates
+
+There are many ways to update your Docusaurus version. One guaranteed way is to manually change the version number in package.json to the desired version. Note that all @docusaurus/-namespaced packages should be using the same version.
+
+```json
+{
+  "dependencies": {
+    "@docusaurus/core": "2.4.0",
+    "@docusaurus/preset-classic": "2.4.0",
+  }
+}
+```
+Then, in the directory containing package.json, run your package manager's install command:
+
+```bash
+npm install
+```
+
+
+## run locally
+
+```bash
+cd SavithaNagaraju
+npm run start
+```
+
+## build and deploy
+
+```bash
+cd SavithaNagaraju
+npm run build
+cd build
+git add .
+git commit -m "updating deployable website"
+git push 
+cd ..
+```
