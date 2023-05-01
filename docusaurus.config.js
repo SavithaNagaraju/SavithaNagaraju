@@ -13,15 +13,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://${organizationName}.github.io',
+  url: 'https://SavithaNagaraju.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/${projectName}/',
+  baseUrl: '/SavithaNagaraju/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: '${organizationName}', // Usually your GitHub org/user name.
-  projectName: '${projectName}/', // Usually your repo name.
+  organizationName: 'SavithaNagaraju', // Usually your GitHub org/user name.
+  projectName: 'SavithaNagaraju.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/${organizationName}/${projectName}/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/SavithaNagaraju/SavithaNagaraju.github.io/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/${organizationName}/${projectName}/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/SavithaNagaraju/SavithaNagaraju.github.io/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

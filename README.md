@@ -53,6 +53,7 @@ Follow [article](https://github.com/LayZeeDK/github-pages-docusaurus)
 ```bash
 cd SavithaNagaraju
 npm run build
+npm run serve
 ```
 
 ## run locally
