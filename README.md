@@ -1,4 +1,7 @@
-### Hi there 👋
+
+
+
+# Hi there 👋
 
 <!--
 **SavithaNagaraju/SavithaNagaraju** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +17,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+# Instructions:
+
+## clone
+
+```bash
+git clone --recursive https://github.com/SavithaNagaraju/SavithaNagaraju
+cd SavithaNagaraju
+git submodule update --init --recursive
+```
