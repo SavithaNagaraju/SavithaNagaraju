@@ -47,22 +47,17 @@ Then, in the directory containing package.json, run your package manager's insta
 npm install
 ```
 
+## build and deploy
+Follow [article](https://github.com/LayZeeDK/github-pages-docusaurus)
+
+```bash
+cd SavithaNagaraju
+npm run build
+```
 
 ## run locally
 
 ```bash
 cd SavithaNagaraju
 npm run start
-```
-
-## build and deploy
-
-```bash
-cd SavithaNagaraju
-npm run build
-cd build
-git add .
-git commit -m "updating deployable website"
-git push 
-cd ..
 ```
