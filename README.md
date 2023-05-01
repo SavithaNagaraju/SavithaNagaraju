@@ -24,9 +24,8 @@ Here are some ideas to get you started:
 ## clone
 
 ```bash
-git clone --recursive https://github.com/SavithaNagaraju/SavithaNagaraju
+git clone https://github.com/SavithaNagaraju/SavithaNagaraju
 cd SavithaNagaraju
-git submodule update --init --recursive
 ```
 
 ## package updates
