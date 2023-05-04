@@ -8,9 +8,9 @@ const projectName = "SavithaNagaraju.github.io";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Savitha Nagaraju',
+  tagline: 'My Personal Website',
+  favicon: 'img/SN.ico',
 
   // Set the production url of your site here
   url: 'https://SavithaNagaraju.github.io',
